@@ -1,0 +1,13 @@
+{
+  "name": "e2e",
+  "targets": {
+    "build": {},
+    "build:config": {},
+    "build:ts": {
+      "options": {
+        "cwd": "packages/e2e"
+      },
+      "dependsOn": ["^build", "build:config"]
+    }
+  }
+}

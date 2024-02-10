@@ -1,0 +1,17 @@
+{
+  "name": "nx-workspace-input-affected",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "nx affected --base=main --target=build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18",
+    "nx": "^17",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "infra",
+  "targets": {
+    "build": {},
+    "build:ts": {
+      "options": {
+        "cwd": "packages/infra"
+      }
+    }
+  }
+}

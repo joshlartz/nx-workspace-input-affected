@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "targets": {
+    "build": {},
+    "build:config": {},
+    "build:ts": {
+      "options": {
+        "cwd": "packages/app"
+      },
+      "dependsOn": ["^build", "build:config"]
+    }
+  }
+}

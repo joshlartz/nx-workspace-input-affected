@@ -1,0 +1,11 @@
+{
+  "name": "model",
+  "targets": {
+    "build": {},
+    "build:ts": {
+      "options": {
+        "cwd": "packages/model"
+      }
+    }
+  }
+}
